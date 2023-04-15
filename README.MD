@@ -10,7 +10,7 @@
 
 ```sh
 # Clone this repository
-git clone <url> && cd dotfiles
+git clone https://github.com/Script47ph/simple-dotfiles.git && cd dotfiles
 ```
   
 ```sh
