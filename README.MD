@@ -8,10 +8,7 @@
 
 ## How to use it?
 
-```sh
-# Clone this repository
-git clone https://github.com/Script47ph/simple-dotfiles.git && cd dotfiles
-```
+
   
 ```sh
 # Install nessessary packages
@@ -32,18 +29,22 @@ sudo chmod +x /usr/local/bin/oh-my-posh
 ```
 
 ```sh
-# Set the default theme and init oh-my-posh
-echo -e 'eval "$(oh-my-posh init zsh --config ~/.poshthemes/huvix.omp.json)" \nalias cl="clear"' >> ~/.bashrc
+# Clone this repository
+git clone https://github.com/Script47ph/simple-dotfiles.git && cd simple-dotfiles
 ```
 
 ```sh
 # Copy all configuration to the home directory
 cp -r poshthemes ~/.poshthemes
 cp vimrc ~/.vimrc
-cp inputrc ~/.inputrc
 cp -r vim ~/.vim
+cp inputrc ~/.inputrc
 ```
 
+```sh
+# Set the default theme and init oh-my-posh
+echo -e 'eval "$(oh-my-posh init bash --config ~/.poshthemes/huvix.omp.json)" \nalias cl="clear"' >> ~/.bashrc
+```
 ```sh
 # Load new configuration
 source ~/.bashrc
