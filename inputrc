@@ -1,0 +1,7 @@
+"\e[A": history-search-backward
+"\eOA": history-previous-history
+"\e[B": history-search-forward
+"\eOB": history-netxt-history
+TAB: menu-complete
+"\e[Z": menu-complete-backward
+set show-all-if-ambiguous on
