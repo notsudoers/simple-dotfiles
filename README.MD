@@ -15,11 +15,11 @@
 
 ## For Ubuntu Based
 sudo apt-get update && \
-sudo apt-get install -y git wget unzip vim
+sudo apt-get install -y git wget unzip vim bash-completion
 
 ## For Fedora Based
 sudo dnf update -y && \
-sudo dnf install -y git wget unzip vim
+sudo dnf install -y git wget unzip vim bash-completion
 ```
 
 ```sh
