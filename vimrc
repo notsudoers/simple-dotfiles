@@ -9,3 +9,4 @@ set t_Co=256
 set cursorline
 colorscheme deep-space
 let g:airline_theme='onehalflight'
+source $VIMRUNTIME/vimrc_example.vim
