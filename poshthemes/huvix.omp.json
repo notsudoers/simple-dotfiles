@@ -53,8 +53,8 @@
         }
       ],
       "type": "prompt"
-    },
-    {
+    }
+/*    {
       "alignment": "left",
       "newline": true,
       "segments": [
@@ -76,7 +76,7 @@
         }
       ],
       "type": "prompt"
-    }
+    } */
   ],
   "final_space": true,
   "version": 2
